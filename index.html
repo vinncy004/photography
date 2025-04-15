@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fidel_shots</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu-bar">
+    <button id="menu"><img src="img/menubar.png" alt="" id="menu-icon" onclick="toggleNav()"></button>
+</div>
+    <div class="container">
+        <div class="top-navigation" id="sideNav">
+            
+            <ul><li id="icontop"><img src="img/icon.jpg" alt="loading..." class="icon"><span class="icon-name">fidel_shots</span></li>
+                <li><a href="photo.html" onclick="closeNav()">home</a></li>
+                <li><a href="galleries.html" onclick="closeNav()">Galleries</a></li>
+                <li><a href="services.html" id="services" onclick="closeNav()">services</a></li>
+                <li><a href="#contacts" id="contacts" onclick="closeNav()">contacts</a></li>
+                <li><a href="about.html" id="about" onclick="closeNav()">about us</a></li> 
+                <li><button class="booking-btn"><a href="book.html" onclick="closeNav()">Book now</a> </button></li>
+            </ul>
+            
+        </div>
+        <br>
+       
+        <br><br>
+        <h1>get the best and ultimate photography</h1>
+        <br>
+        <h2 id="header2">capture memories with fidel_shots photoraphy</h2>
+        <br>
+        <h3>we are open </h3>
+        <br>
+        <div id="phoneimage">
+            <img src="img/bgimage.jpg" alt="" srcset="" id="ingallery">
+         </div>
+         <br><br><br>
+        <button id="btn"><a href="services.html">services</a></button><button id="btn1"><a href="about.html">about-us</a></button>
+         <br>
+         <br>
+         <h2>why choose fidel_photography?:</h2>
+         <br>
+        <h3>customer satisfaction</h3>
+        <p>we value our customers,we work hard to achieve the expectations of our customers </p>
+        <h3>flexibility</h3>
+        <p>we are open when needed and ensuring we provide our services in a timely manner</p>
+        <h3>cost-effectiveness</h3>
+        <p>our goal being customer satisfaction we offer good services to our trusted customers</p>
+        <h3>support </h3>
+        <p>fidel_photography offers 24/7 support to our  valued customers <br>we are open </p>
+     <br><br>
+     <div id="services">
+        <ul>
+            <li>
+             street photography
+            </li>
+            <li>
+               wedding events
+            </li>
+            <li>
+              corporate events
+            </li>
+            <li>
+                parties photography
+            </li>
+            <li>
+                passports(all types)
+            </li>
+            <li>
+                welcome to fidel-shots
+            </li>
+        </ul>
+     </div>
+     <br><br>
+      <div id="bottom-nav">
+        
+            <br><br><br><br>
+            <ul>
+                FAQs
+                <li>
+                    <details>
+                        <summary>where are you located?</summary>
+                        <p>we are mobile</p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>are your services mobile?</summary>
+                        <p>we are flexible anywhere</p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>can we hire you?</summary>
+                        <p>we are open for hire feel free</p>
+                    </details>
+                    <details>
+                        <summary>do you capture birthday parties</summary>
+                        <p>yes,in fidel_photography we make memories through images</p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>do you train photograpers</summary>
+                        <p>contact support fo assistance</p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>leave us your feedback</summary>
+                       <form action="#" method="get">
+                        <fieldset>
+                            <legend>feedback</legend>
+                        <label for="email">your email/contact</label>
+                        <br>
+                        <input type="email" name="email" id="email" required placeholder="email/phone no">
+                        <br>
+                            <textarea name="feedback" id="feedback">
+
+                            </textarea>
+                            <br>
+                            <button id="btn2" type="submit">submit</button>
+                            <br>
+                        </fieldset>
+                       </form>
+                    </details>
+                </li>
+            </ul>
+            <ul  class="contacts">
+                CONTACT INFO
+                <li><a href="#facebook.com"><img src="img/facebook.png" alt="facebook" class="icon"></a></li>
+                <li><a href="instagram.com"><img src="" alt="instagram" class="icon"></a></li>
+                <li><a href="x.com"><img src="img/x.png" alt="tweeter" class="icon"></a></li>
+                <li><a href="wa.me/+254721435343"><img src="img/whatsaap.png" alt="whatsaap" class="icon"></a></li>
+                <li><a href="mailto:fiddelisnyabuti@gmail.com"><img src="img/email.png" alt="email us" class="icon"></a></li>
+                <li><a href="tiktok"><img src="img/" alt="tiktok" class="icon"></a></li>
+            </ul>
+            <ul id="quicklinks">
+                    QUICKLINKS
+                <li><a href="photo.html">Top</a></li>
+                <li><a href="https://wa.me/+254721436343">Book now</a></li>
+                <li><a href="galleries.html">Galleries</a></li>
+                <li><a href="photo.html">Services</a></li>
+                <li><a href="about.html">about-us/a></li>
+            </ul>
+           
+           
+     
+       <br>
+       <div id="copyright">
+        <p>&copy;2025</p>
+        <p>all rights reserved </p>
+        <p>made by vincent contact: <a href="https://wa.me/+25474053081 ">+25474053081 </a></p>
+      <br>
+       <br>
+       
+       </div>
+    </div>
+       </div>
+  
+        
+         <script type="text/javascript" name="script.js">
+        function toggleNav() {
+    const sideNav = document.getElementById('sideNav');
+    sideNav.classList.toggle('active');
+}
+
+function closeNav() {
+    const sideNav = document.getElementById('sideNav');
+    sideNav.classList.remove('active');
+}
+      
+
+       
+  
+      </script>
+    </body>
+    </div>
+</html>
